@@ -1,1 +1,1 @@
-## Projeto RPA🤖 com PyAutoGUI e Yfinance 💲
+## Projeto RPA com PyautoGUI e Yfinance
