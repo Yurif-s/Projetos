@@ -1,0 +1,1 @@
+## Projeto RPA com PyautoGUI e Yfinance
