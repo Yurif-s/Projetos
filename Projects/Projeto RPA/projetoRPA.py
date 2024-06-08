@@ -9,7 +9,7 @@ from time import sleep
 
 # Saber qual ação retiraremos os dados
 codigo = input('Digite o código: ')
-data = input('Digite a data final: [Ano-Dia-Mês] ')
+data = input('Digite a data final: [Ano-Mês-Dia] ')
 # Pegar os dados dessa ação
 dados = yf.Ticker(codigo).history(start='2024-01-01', end=f'{data}')
 # Pegar apenas o fechamento desses dados
@@ -38,7 +38,7 @@ Atte.
 '''
 
 # Definindo o intervalo de execução dos código do PyAutoGUI
-gui.PAUSE = 3
+gui.PAUSE = 4
 
 # Abrir o Chrome no Gmail.com
 webbrowser.open('www.gmail.com')
